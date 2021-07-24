@@ -6,10 +6,24 @@ body {
 
 .header{
     background-image: url("../images/backgrounds/h_img.jpg");
+    color: white;
     height: 80vh;
     background-position: center;
     background-size: cover;
     text-align: center;
     padding: 230px 30px 30px;
     opacity: 0.9;
+}
+
+.welcome {
+    font-size: 40px;
+    margin-top: 35px;
+}
+.amazing {
+    font-size: 10px;
+}
+
+.mouse {
+    margin-top: 200px;
+    
 }
