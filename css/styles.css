@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.header{
+    background-image: url("../images/backgrounds/h_img.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 230px 30px 30px;
+    opacity: 0.9;
+}
