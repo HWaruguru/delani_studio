@@ -36,8 +36,7 @@ h1 {
 }
 
 .services {
-    background-image: url("../images/backgrounds/s_image.jpg");
-    
+    background-image: url("../images/backgrounds/s_image.jpg");   
 }
 
 .servicetext {
@@ -54,3 +53,64 @@ h1 {
     align-items: center;
     text-align: center;
 }
+
+.card-deck {
+    display: flex;
+}
+
+.card {
+  width: 33.3%;
+  margin: 20px;
+  align-content: center;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+}
+
+.portfolio {
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+    height: 60vh;
+    color: white;
+    padding-top: 2em;
+}
+
+
+.contact form {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+  }
+  
+  .contact input {
+    background: transparent;
+    color: #fff;
+  }
+  
+  .contact input::placeholder {
+    color: #fff;
+  }
+  
+  .contact textarea {
+    background: transparent;
+  }
+  
+  
+  .contact textarea::placeholder {
+    background: transparent;
+    color: #fff;
+  }
+  
+  .contact .row {
+    margin-top: 1.5em;
+  }
