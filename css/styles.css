@@ -1,6 +1,7 @@
 body {
     width: 100%;
     font-family: 'Overpass', sans-serif;
+    font-size: 15px;
 
 }
 
@@ -20,8 +21,9 @@ h1 {
     margin-top: 35px;
     line-height: 45pt;
 }
-.amazing {
-    font-size: 10px;
+
+.h2 {
+    text-align: center;
 }
 
 .mouse {
@@ -30,49 +32,78 @@ h1 {
 
 .about {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     line-height: 25pt;
-    font-size: 15px;
 }
 
 .services {
-    background-image: url("../images/backgrounds/s_image.jpg");   
+    background-image: url("../images/backgrounds/s_image.jpg"); 
+    margin-top: 30px;
 }
 
 .servicetext {
     text-align: center;
     margin-top: 20px;
     line-height: 25pt;
-    font-size: 10px;
     color: white;
     padding: 50px;
 
 }
 
 .whatwedo{
+    margin-top: 30px;
     align-items: center;
     text-align: center;
+}
+
+.whatwedo img {
+    max-width: 70px;
+    height: auto;
 }
 
 .card-deck {
     display: flex;
 }
 
-.card {
+.whatwedo .card {
   width: 33.3%;
   margin: 20px;
   align-content: center;
-  font-size: 20px;
   padding: 5px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio {
-    align-items: center;
     text-align: center;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.portfolio .card-deck {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+.portfolio .card {
+    max-width: 23%;
+
+}
+
+.bottom-deck {
+    margin-top: 30px;
 }
 
 .contact {
+    margin-top: 30px;
     text-align: center;
     background-image: url("../images/backgrounds/c_image.jpg");
     background-position: center;
@@ -84,7 +115,6 @@ h1 {
     color: white;
     padding-top: 2em;
 }
-
 
 .contact form {
     text-align: center;
@@ -113,4 +143,25 @@ h1 {
   
   .contact .row {
     margin-top: 1.5em;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 30px;
+  }
+
+  .icons div {
+      margin-right: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+
   }
