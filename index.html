@@ -43,39 +43,39 @@
             <div class="whatwedo">
                 <h2>WHAT WE DO</h2>
                 <div class="card-deck">
-                    <div class="card">
-                      <img class="card-img-top img-fluid" src="images/services_icons/design_icon.png" alt="Card image cap">
+                    <div class="card" id="design_card">
+                      <img class="card-img-top img-fluid" id="design_image" src="images/services_icons/design_icon.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">DESIGN</h5>
-                        <p class="card-text">Our design practice offers a full range of services
-                            including brand strategy, interaction and visual design and use experience testing.</p>
-                        <p class="card-text">Throughout your project, our designers create and 
+                        <p class="card-text" id="design_paragraph">Our design practice offers a full range of services
+                            including brand strategy, interaction and visual design and use experience testing.<br>
+                        Throughout your project, our designers create and 
                             implement visual design and workflows, solicit user
                         feedback and work with you to make sure what gets built
                     is what is needed.</p>
                       </div>
                     </div>
-                    <div class="card">
-                      <img class="card-img-top img-fluid" src="images/services_icons/dev_icon.png" alt="Card image cap">
+                    <div class="card" id="dev_card">
+                      <img class="card-img-top img-fluid" id="dev_image" src="images/services_icons/dev_icon.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">DEVELOPMENT</h5>
-                        <p class="card-text">All engineers are fluent in the latest enterprise, mobile 
+                        <p class="card-text" id="dev_paragraph">All engineers are fluent in the latest enterprise, mobile 
                             and web development technologies.
-                        </p>
-                        <p class="card-text">They collaborate with your team to write, and improve 
+                        <br>
+                        They collaborate with your team to write, and improve 
                             code on a daily basis, using proven practices such test-driven development and pair programming.
                         </p>
                       </div>
                     </div>
-                    <div class="card">
-                      <img class="card-img-top img-fluid" src="images/services_icons/product_icon.png" alt="Card image cap">
+                    <div class="card" id="pm_card">
+                      <img class="card-img-top img-fluid" id="pm_image" src="images/services_icons/product_icon.png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">PRODUCT MANAGEMENT</h5>
-                        <p class="card-text">Planning and development is iterative. because we are 
+                        <p class="card-text" id="pm_paragraph">Planning and development is iterative. because we are 
                             constantly coding and testing, the products we build 
                             always ready to go live.
-                        </p>
-                        <p class="card-text">This iterative process allows for changes as business requirements evolve</p>
+                        <br>
+                        This iterative process allows for changes as business requirements evolve</p>
                       </div>
                     </div>
                   </div>
@@ -84,32 +84,40 @@
             <div class="portfolio">
                 <h2>PORTFOLIO</h2>
                 <div class="card-deck">
-                    <div class="card">
+                    <div class="card img_wrap">
                       <img class="card-img-top img-fluid" src="images/portfolio/work4.jpg" alt="Card image cap">
+                      <p class="img_description">All Blacks</p>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="images/portfolio/work3.jpg" alt="Card image cap">
+                    <div class="card img_wrap">
+                        <img class="card-img-top img-fluid " src="images/portfolio/work3.jpg" alt="Card image cap">
+                        <p class="img_description">Ontario</p>
                       </div>
-                      <div class="card">
+                      <div class="card img_wrap">
                         <img class="card-img-top img-fluid" src="images/portfolio/work2.jpg" alt="Card image cap">
+                        <p class="img_description">Orange Diamond</p>
                       </div>
-                      <div class="card">
+                      <div class="card img_wrap">
                         <img class="card-img-top img-fluid" src="images/portfolio/work1.jpg" alt="Card image cap">
+                        <p class="img_description">Moviex</p>
                       </div>
                     
                   </div>
                   <div class="card-deck bottom-deck">
-                    <div class="card">
+                    <div class="card img_wrap">
                       <img class="card-img-top img-fluid" src="images/portfolio/work5.jpg" alt="Card image cap">
+                      <p class="img_description">Friendstar</p>
                     </div>
-                    <div class="card">
+                    <div class="card img_wrap">
                         <img class="card-img-top img-fluid" src="images/portfolio/work6.jpg" alt="Card image cap">
+                        <p class="img_description">People Power</p>
                       </div>
-                      <div class="card">
+                      <div class="card img_wrap">
                         <img class="card-img-top img-fluid" src="images/portfolio/work7.jpg" alt="Card image cap">
+                        <p class="img_description">Burned</p>
                       </div>
-                      <div class="card">
+                      <div class="card img_wrap">
                         <img class="card-img-top img-fluid" src="images/portfolio/work8.jpg" alt="Card image cap">
+                        <p class="img_description">All Blacks Time</p>
                       </div>
                     </div>
             </div>
@@ -118,19 +126,19 @@
                 <form>
                     <div class="row">
                         <div class="col-md-6 col-margin">
-                            <input type="text" class="form-control" placeholder="Name...">
+                            <input id="name"type="text" class="form-control" placeholder="Name..." >
                         </div>
                         <div class="col-md-6 cl-margin">
-                            <input type="email" class="form-control" placeholder="Email...">
+                            <input id="email" type="email" class="form-control" placeholder="Email..." >
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
                           <textarea id="message" class="form-control" placeholder="Your message here..." rows="10"></textarea>
                         </div>
-                      </div>
-                      <button id="submit" type="submit" class="btn ">Submit</button>
-                  </form>
+                    </div>
+                    <button id="submit" type="submit" class="btn ">Submit</button>
+                </form>
 
             </div>
 
